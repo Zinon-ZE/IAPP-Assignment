@@ -176,3 +176,12 @@ nav{
     height: auto;
     border-radius: 20px;
 }
+
+footer{
+    background-color: rgb(9, 9, 49);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    border-top: 3px solid orange;
+}
