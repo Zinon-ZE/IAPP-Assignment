@@ -104,78 +104,10 @@ nav{
 
 
 /* main part (unique) */
-.image-container{
-    position: relative;
-    height: auto;
-    width: 100%;
-    
-}
-
-.image{
-    height: 100% ;
-    width: 100%;
-}
-
-.image-word{
-    position: absolute;
-    text-align: center;
-    top: 40%;
-    bottom: 25%;
-    left: 25%;
-    right: 25%;
-    color: white;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1)
-}
-
-.image-word h1{
-    font-size: 40px;
-}
-
-.image-word p{
-    font-size: 20px;
-    font-weight: 700;
-}
-
-.introduction-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:  10px;
-    padding: 60px 60px;
-}
-
-.introduction{
-    flex: 1;
-}
-
-.introduction.text{
-    width: 100%;
-    max-width: 500px;
-    margin-left: 100px;
-}
-.introduction.text h1{
-    color: rgb(2, 2, 51);
-}
-
-.introduction.text p{
-    color: gray;
-    line-height: 1.7;
-    font-size: 17px;
-    font-weight: 500;
-}
+/* ------------------------- */
 
 
-.introduction.image{
-    display: flex;
-    justify-content: center; 
-}
 
-.introduction.image img{
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    border-radius: 20px;
-}
 
 footer{
     background-color: rgb(9, 9, 49);
