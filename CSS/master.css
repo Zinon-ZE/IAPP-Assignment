@@ -1,0 +1,178 @@
+/* universal selector */
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #f8f8f8;
+}
+
+header{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 128, 0);
+    color: white;
+    font-size: 150%;
+    font-weight: 900;
+    height: 40px;
+}
+
+/* navigation bar */
+nav{
+    position: sticky;
+    top: 0 ;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #b0bac6;
+    height: 70px;
+
+    #head-1{
+        margin-left: 100px;
+        color: #e67e22;
+        font-size: 25px;
+        font-weight: bold;
+        
+    }
+    .navigation{
+        text-decoration: none;
+        color: white;
+    }
+    .navigation:nth-child(2){
+        margin-left: auto;
+    }
+    .navigation:last-child{
+        margin-right: 60px;
+    }  
+
+    .navigation:hover{     /* nth-child, first-child, last-child 是绝对的，意思就是在这个容器里面绝对是这个位置，就算指定了什么class也是没用。*/
+        color:#e67e22;    /* nth-of-type, first-of-type 和last-of-type不是绝对的，看class */
+    }
+
+}
+
+
+/* bottom navigation */
+.box-title{
+    text-align: center;
+    color: rgb(2, 2, 51);
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px; 
+    
+}
+
+.little-box-hyperlink{
+    text-decoration: none;
+    flex: 1;
+    max-width: 375px;
+}
+
+.little-box{ 
+    background-color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s; 
+} 
+
+.little-box h3{
+    color: orange;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.little-box p{
+    color: black;
+    line-height: 1.5;
+}
+
+.little-box:hover{
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);   /* first: control left, right; second: control up, down; third: control blur pixels; fourth: control opacity */
+}
+
+
+/* main part (unique) */
+.image-container{
+    position: relative;
+    height: auto;
+    width: 100%;
+    
+}
+
+.image{
+    height: 100% ;
+    width: 100%;
+}
+
+.image-word{
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1)
+}
+
+.image-word h1{
+    font-size: 40px;
+}
+
+.image-word p{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.introduction-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:  10px;
+    padding: 60px 60px;
+}
+
+.introduction{
+    flex: 1;
+}
+
+.introduction.text{
+    width: 100%;
+    max-width: 500px;
+    margin-left: 100px;
+}
+.introduction.text h1{
+    color: rgb(2, 2, 51);
+}
+
+.introduction.text p{
+    color: gray;
+    line-height: 1.7;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+.introduction.image{
+    display: flex;
+    justify-content: center; 
+}
+
+.introduction.image img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px;
+}
