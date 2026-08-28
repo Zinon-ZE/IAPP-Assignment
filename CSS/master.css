@@ -78,11 +78,12 @@ nav{
 .little-box-hyperlink{
     text-decoration: none;
     flex: 1;
-    min-width: 330px;
+    min-width: 330px
 }
 
 .little-box{ 
     background-color: white;
+    min-height: 110px;
     padding: 30px 20px;
     text-align: center;
     border-radius: 15px;
