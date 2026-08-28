@@ -1,22 +1,19 @@
 .image-container{
     position: relative;
-    height: auto;
-    width: 100%;
-    
 }
 
 .image{
-    height: 100% ;
     width: 100%;
+    height: auto;
+    min-height: 400px;
 }
 
 .image-word{
     position: absolute;
     text-align: center;
-    top: 40%;
-    bottom: 25%;
-    left: 25%;
-    right: 25%;
+    top: 50%;                       /*(把图片想象成4个格子），top 50%就直接把上面2个格子排除，left再把左边的格子排除，剩下右下角，然后文字的一半就是半个格子，反推之后刚好居中*/
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 1)
 }
@@ -31,21 +28,16 @@
 }
 
 .introduction-container{
+    padding: 50px 40px;
+    gap: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:  10px;
-    padding: 60px 60px;
-}
-
-.introduction{
-    flex: 1;
 }
 
 .introduction.text{
+    flex: 1;
     width: 100%;
-    max-width: 500px;
-    margin-left: 100px;
 }
 .introduction.text h1{
     color: rgb(2, 2, 51);
@@ -60,15 +52,15 @@
 
 
 .introduction.image{
+    flex: 1;
     display: flex;
-    justify-content: center; 
+    align-items: center;
 }
 
 .introduction.image img{
     width: 100%;
-    max-width: 500px;
     height: auto;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 
