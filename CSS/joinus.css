@@ -1,0 +1,48 @@
+main h1:first-of-type{
+    text-align: center;
+    font-size: 40px;
+    color: orange;
+    margin-bottom: 15px;
+}
+
+.club-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form input{
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 7px 0px;
+    border: black solid 0.5px;
+    
+}
+
+ .gender-type{
+    width: 40px;
+    margin-top: 30px;
+ }
+
+.gender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    border-radius: 5px;
+    border: black solid 0.5px;
+    height: 30px;
+}
+
+.level-of-study{
+    width: 300px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 7px 0px;
+    border: black solid 0.5px;
+}
+
+

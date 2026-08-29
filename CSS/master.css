@@ -18,7 +18,9 @@ header{
     color: white;
     font-size: 150%;
     font-weight: 900;
-    height: 40px;
+    height: auto;
+    min-height: 40px;
+    text-align: center;
 }
 
 /* navigation bar */
@@ -67,6 +69,7 @@ nav{
 .box{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
     padding: 40px 20px; 
     
@@ -75,18 +78,19 @@ nav{
 .little-box-hyperlink{
     text-decoration: none;
     flex: 1;
-    max-width: 375px;
+    min-width: 330px
 }
 
 .little-box{ 
     background-color: white;
+    min-height: 110px;
     padding: 30px 20px;
     text-align: center;
     border-radius: 15px;
-    transition: transform 0.3s, box-shadow 0.3s; 
+    transition: transform 0.3s, box-shadow 0.3s;
 } 
 
-.little-box h3{
+.little-box h3{ 
     color: orange;
     font-size: 25px;
     padding-bottom: 10px;
