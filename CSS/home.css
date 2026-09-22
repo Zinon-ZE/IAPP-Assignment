@@ -1,66 +1,63 @@
-.image-container{
-    position: relative;
+.image-container {
+  position: relative;
 }
 
-.image{
-    width: 100%;
-    height: auto;
-    min-height: 400px;
+.image {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
 }
 
-.image-word{
-    position: absolute;
-    text-align: center;
-    top: 50%;                       /*(把图片想象成4个格子），top 50%就直接把上面2个格子排除，left再把左边的格子排除，剩下右下角，然后文字的一半就是半个格子，反推之后刚好居中*/
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1)
+.image-word {
+  position: absolute;
+  text-align: center;
+  top: 50%; /*(把图片想象成4个格子），top 50%就直接把上面2个格子排除，left再把左边的格子排除，剩下右下角，然后文字的一半就是半个格子，反推之后刚好居中*/
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
 }
 
-.image-word h1{
-    font-size: 40px;
+.image-word h1 {
+  font-size: 40px;
 }
 
-.image-word p{
-    font-size: 20px;
-    font-weight: 700;
+.image-word p {
+  font-size: 20px;
+  font-weight: 700;
 }
 
-.introduction-container{
-    padding: 50px 40px;
-    gap: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.introduction-container {
+  padding: 50px 40px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.introduction.text{
-    flex: 1;
-    width: 100%;
+.introduction.text {
+  flex: 1;
+  width: 100%;
 }
-.introduction.text h1{
-    color: rgb(2, 2, 51);
-}
-
-.introduction.text p{
-    color: gray;
-    line-height: 1.7;
-    font-size: 17px;
-    font-weight: 500;
+.introduction.text h1 {
+  color: rgb(2, 2, 51);
 }
 
-
-.introduction.image{
-    flex: 1;
-    display: flex;
-    align-items: center;
+.introduction.text p {
+  color: gray;
+  line-height: 1.7;
+  font-size: 17px;
+  font-weight: 500;
 }
 
-.introduction.image img{
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
+.introduction.image {
+  flex: 1;
+  display: flex;
+  align-items: center;
 }
 
-
+.introduction.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}

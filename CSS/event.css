@@ -1,87 +1,87 @@
-.event-container{
-    max-width: 1200px;
-    margin: 40px auto;  
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+.event-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.event-container h2{
-    font-size: 30px;
-    margin-bottom: 30px;
-    text-align: center;
+.event-container h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 /* 8 box of event, each row have 2 column */
-.event-grid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
+.event-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
 
-.event-card{
-    background-color: white;
-    border-left: 5px solid orangered;
-    border-radius: 12px;
-    padding: 40px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+.event-card {
+  background-color: white;
+  border-left: 5px solid orangered;
+  border-radius: 12px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.event-date{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-right: 15px;
-    border-right: 1px solid rgb(230, 223, 223);
+.event-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 15px;
+  border-right: 1px solid rgb(230, 223, 223);
 }
 
-.event-date .day{
-    font-size: 26px;
-    font-weight: bold;
-    color: #e65100;
+.event-date .day {
+  font-size: 26px;
+  font-weight: bold;
+  color: #e65100;
 }
 
-.event-date .month{
-    font-size: 12px;
-    font-weight: bold;
-    color: #718096;
+.event-date .month {
+  font-size: 12px;
+  font-weight: bold;
+  color: #718096;
 }
 
-.event-detail{
-    flex: 1; 
+.event-detail {
+  flex: 1;
 }
 
-.event-detail h3{
-    margin: 6px 0;
-    font-size: 16px;
+.event-detail h3 {
+  margin: 6px 0;
+  font-size: 16px;
 }
 
-.badge{
-    font-size: 10px;
-    font-weight: bold;
-    padding: 3px 8px;
-    border-radius: 10px;
-    letter-spacing: 0.5px;
-    background-color:#d3e7f4; 
-    color: #0388ca;
+.badge {
+  font-size: 10px;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 10px;
+  letter-spacing: 0.5px;
+  background-color: #d3e7f4;
+  color: #0388ca;
 }
 
-.btn{
-    background-color: black;
-    color: white;
-    padding: 10px 18px;
-    border: None;
-    border-radius: 6px;
-    font-weight: bold;
-    font-size: 13px;
-    cursor: pointer
+.btn {
+  background-color: black;
+  color: white;
+  padding: 10px 18px;
+  border: None;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
 }
 
-.btn:hover{
-    background-color: rgb(8, 8, 168);
+.btn:hover {
+  background-color: rgb(8, 8, 168);
 }
 
-.btn.joined{
-    background-color: #16a34a; 
+.btn.joined {
+  background-color: #16a34a;
 }
