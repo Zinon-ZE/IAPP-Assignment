@@ -1,0 +1,53 @@
+/* Simple styles for the Sponsors page */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+main {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 32px;
+    color: #1a3c6e;
+}
+
+main p {
+    font-size: 16px;
+    color: #333333;
+}
+
+ul.sponsor-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.sponsor-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #dddddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+ul.sponsor-list img {
+    width: 150px;
+    height: 130px;
+}
+
+ul.sponsor-list a {
+    color: #0056b3;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+ul.sponsor-list a:hover {
+    text-decoration: underline;
+}
